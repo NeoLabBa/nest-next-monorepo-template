@@ -1,11 +1,9 @@
 # Quickstart Guide
+
 ## Installation
 ### Prerequisites
 - Docker - [Installation](https://docs.docker.com/get-docker/)
 - kool - [Installation](https://kool.dev/docs/getting-started/installation)
-
-### Clone the repository
-```bash https://github.com/NeoLabBa/nest-next-monorepo-template.git```
 
 ### Run the setup script
 ```bash kool run setup```
