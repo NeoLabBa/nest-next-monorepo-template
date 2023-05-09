@@ -1,0 +1,27 @@
+{
+  "name": "neolab-nest-next-template",
+  "version": "1.0.0",
+  "description": "NestJS and NextJS Development Template",
+  "scripts": {
+    "backend:lint": "cd backend && npm run lint",
+    "frontend:lint": "cd frontend && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoLabBa/nest-next-monorepo-template.git"
+  },
+  "author": "Omar Iriskic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeoLabBa/nest-next-monorepo-template/issues"
+  },
+  "homepage": "https://github.com/NeoLabBa/nest-next-monorepo-template#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run backend:lint && npm run frontend:lint"
+    }
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
